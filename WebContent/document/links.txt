@@ -1,0 +1,15 @@
+1..link for messnge sending in java
+
+http://javaprogramming.language-tutorial.com/2012/09/send-sms-using-jsp.html
+
+https://www.youtube.com/watch?v=FHIwdRkLfvs
+
+https://www.youtube.com/watch?v=kb5hl6ZXt_M
+
+2..link to store uploaded file in our project folder
+
+http://codetpoint.com/java-servlet-uploading-an-image-on-server/
+
+http://www.codejava.net/java-ee/servlet/java-file-upload-example-with-servlet-30-api
+
+https://www.informationvine.com/index?qsrc=999&qo=semQuery&ad=semD&o=603910&l=sem&askid=1f195248-a463-4bad-a215-ccc8a7f6b571-0-iv_gsb&q=java%20upload%20file&dqi=&am=broad&an=google_s

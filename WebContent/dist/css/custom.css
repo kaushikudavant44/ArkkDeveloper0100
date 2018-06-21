@@ -1,0 +1,37 @@
+.login-page,.register-page{background:#3c8dbc !important;}
+.login-logo a, .register-logo a {color:#fff; text-transform:uppercase;}
+.login-box-body, .register-box-body { border:8px solid #367fa9; border-radius:8px;}
+.login-box-msg, .register-box-msg { font-size:16px; text-transform:capitalize; color:#ccc; font-weight:600;}
+.new-btn { background:linear-gradient(to bottom, #00b7ea 0%,#009ec3 100%); font-size:16px; font-style:italic; border-color:#367fa9; border-radius:0px !important;}
+.small-text { font-size:13px; color:#cdcdcd; text-decoration:underline;}
+.form-control-feedback { line-height:43px;}
+.form-control { height:43px; color:#555 !important;}
+body.hold-transition.login-page { height:auto;}
+.mar-top {margin-top:20px;}
+.register-box.large { width:50%; margin:0 auto;}
+.inner-pad { padding:35px;}
+textarea.form-control.img { width: 20%; float: left; margin: 0 20px 0 0; }
+select { color:#555; }
+.input-textarea { height:43px !important;}
+.new-btn.mar-top { width:20%; margin:0 auto;}
+.form-group.mar-bot {  margin-bottom: 0px; }
+.login-logo, .register-logo { margin-bottom:10px;}
+.tbl tr, th, td { padding: 15px !important; }
+.tbl th { background:#f9f9f9; }
+.table-hover>tbody>tr:hover { background-color: #f9f9f9; }
+li.mar-left { margin-left:20px;}
+.bottom-btn { padding:10px;}
+.input-lg { padding:10px; width:100%; display:block;}
+
+.search-icon {
+    position: absolute;
+    top: 0;
+    right:3%;
+    z-index: 2;
+    display: block;
+    width: 34px;
+    height: 34px;
+    line-height:43px;
+    text-align: center;
+    pointer-events: none;
+}

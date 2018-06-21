@@ -1,0 +1,175 @@
+.body { font-family: 'Roboto', sans-serif; font-size:14px; font-weight:normal  }
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,400i,500,700');
+
+
+.login-page,.register-page{background:#3c8dbc !important;}
+.login-logo a, .register-logo a {color:#fff; text-transform:uppercase;}
+.login-box-body, .register-box-body { border:8px solid #367fa9; border-radius:8px;}
+.login-box-msg, .register-box-msg { font-size:16px; text-transform:capitalize; color:#ccc; font-weight:600;}
+.new-btn { background:linear-gradient(to bottom, #00b7ea 0%,#009ec3 100%); font-size:16px; font-style:italic; border-color:#367fa9; border-radius:0px !important;}
+.new-btn:hover { border-color:#367fa9;}
+.small-text { font-size:13px; color:#cdcdcd; text-decoration:underline;}
+.form-control-feedback { line-height:43px;}
+.form-control { height:43px; color:#555 !important;}
+body.hold-transition.login-page { height:auto;}
+.mar-top {margin-top:20px;}
+.register-box.large { width:50%; margin:0 auto;}
+.inner-pad { padding:35px;}
+textarea.form-control.img { width: 20%; float: left; margin: 0 20px 0 0; }
+select { color:#555; }
+.input-textarea { height:43px !important;}
+.new-btn.mar-top { width:20%; margin:0 auto;}
+.form-group.mar-bot {  margin-bottom: 0px; }
+.login-logo, .register-logo { margin-bottom:10px;}
+.tbl tr, th, td { padding: 15px !important; }
+.ui-datepicker-calendar tr, th, td { padding:0px !important;}
+.tbl th { background:#f9f9f9; }
+.table-hover>tbody>tr:hover { background-color: #f9f9f9; }
+li.mar-left { margin-left:20px;}
+.bottom-btn { padding:10px;}
+.input-lg { padding:10px; width:100%; display:block;}
+
+.search-icon {
+    position: absolute;
+    top: 0;
+    right:3%;
+    z-index: 2;
+    display: block;
+    width: 34px;
+    height: 34px;
+    line-height:43px;
+    text-align: center;
+    pointer-events: none;
+}
+
+.white-blk {
+    background: #ffffff;
+	}
+
+.user-bg {
+	background:#9675ce;
+}
+.user-bg h4 { color:#fff; font-size:22px;}
+
+.thumb-lg { width:88px; height:88px; border-radius:100%;}
+.user-circle { text-align:center; padding:66px;}
+.img-center { display:inline-block; text-align:center;}
+.edit-profile { padding:25px 0; text-align:center;}
+.edit-profile ul { margin:0px; padding:0px;}
+.edit-profile li { display:inline-block; padding:0 8px; border-right:1px solid #ccc; font-size:14px; text-transform:capitalize; font-weight:600; color:#337ab7;}
+.edit-profile li:last-child { border-right:0px;}
+.edit-profile a { font-size:14px; text-transform:capitalize; font-weight:600;}
+.hvr-float {
+    display: inline-block;
+    vertical-align: middle;
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px transparent;
+    transition-duration: 0.3s;
+    transition-property: transform;
+    transition-timing-function: ease-out;
+}
+.hvr-float:hover, .hvr-float:focus, .hvr-float:active {
+    transform: translateY(-8px);
+}
+ol.breadcrumb1 {
+    margin-bottom: 32px;
+}
+.content-header>.breadcrumb1 {
+    float: right;
+    background: transparent;
+    margin-top: 0;
+    margin-bottom:25px;
+    font-size: 12px;
+    padding: 7px 5px;
+    position: absolute;
+    top: 35px;
+    right: 10px;
+    border-radius: 2px;
+}
+.breadcrumb1>li {
+    display: inline-block;
+	float:right;
+}
+.breadcrumb1>li>a {
+    color: #444;
+    text-decoration: none;
+    display: inline-block;
+}
+
+
+.user-bg.sky { background:#03a9f3;}
+.user-bg.orange { background:#fb9678;}
+.head-bg { background:#fff !important; padding:15px; }
+.middle-bg {
+    background: #ffffff;
+    
+    width: 100%;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+	padding:25px;
+}
+.panel-heading {
+	border-color: #00c292;
+    color: white;
+    background-color: #00c292;
+	border-radius:0px;
+}
+
+.title h3 { margin:0 0 15px;}
+.counter { background:#03a9f3; float:left; margin-right:30px; border-radius:0%; height:75px; width:75px; text-align:center; line-height:70px; font-size:28px; color:#fff;}
+.counter-blk { background:#fff; padding:0px; box-shadow:0 0 8px #ddd;}
+.emply-count { line-height:75px; font-size:18px; font-weight:600;  }
+.orange { background:#;}
+.add-blk { margin-top:25px;}
+.hvr-radial-in {
+        display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px transparent;
+    position: relative;
+    overflow: hidden;
+    background: #2098D1;
+    -webkit-transition-property: color;
+    transition-property: color;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+
+}
+
+.hvr-radial-in:hover:before, .hvr-radial-in:focus:before, .hvr-radial-in:active:before {
+    -webkit-transform: scale(0);
+    transform: scale(0);
+}
+
+.hvr-radial-in:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background:#03a9f3;
+    border-radius:0%;
+    transition-property: transform;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-out;
+}
+
+.hvr-radial-in:hover, .hvr-radial-in:focus, .hvr-radial-in:active {
+    color: white;
+}
+
+.middle-bg h3 { margin:0px 0 15px; text-transform:capitalize; color:#03a9f3; font-size:24px;}
+.middle-bg p { font-size:15px; color:#414141;}
+.panel-heading h3 { font-size:20px; text-transform:uppercase; margin:0px; font-weight:600;}
+.panel-heading.blue { border-color: #03a9f3; color: white; background-color: #03a9f3; border-radius:0px; padding:20px 25px; } 
+.panel-heading.orange { border-color:#fb9678; color: white; background-color:#fb9678; border-radius:0px; padding:20px 25px; } 
+.new-clear { background:linear-gradient(to bottom, #eeeeee 0%,#cccccc 100%); font-size:16px; font-style:italic; border-color:#cccccc; border-radius:0px !important; color:#000; margin-left:10px;}
+.new-clear:hover { border-color:#cccccc; color:#000; }
+.new-bg { border-color: #f39c12; color: white; background:#f39c12; border-radius: 0px; padding:20px 25px; }
+.green { padding:20px 25px;} 
+#otherName { display:none; width:100%;}
+#otherbranch {width:100%;}
+.edit-modal {margin:0 auto; width:50%;}
+.black-bg { background:#f7f7f7;}

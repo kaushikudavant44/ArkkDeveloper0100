@@ -1,0 +1,8 @@
+select
+    employeeregistration.salary,employeeregistration.emp_id,employeeregistration.firstname
+
+from
+    dailyattendance
+        join employeeregistration
+            on employeeregistration.emp_id=dailyattendance.emp_id
+where dailyattendance.emp_id=5;
